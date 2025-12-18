@@ -1,36 +1,49 @@
-# ZEYN ECZANE UYGULAMASI
-Zeyn, Eczane iş akışını hızlandıran akıllı qr kod çözümü sunar.
-Amacı: 
-  Tek seferde birden fazla qr kodu okutarak havuza aktarılmasını ve diğer gruplar,eczaneler ile paylaşılmasını sağlar.
-  Qr kod okutarak kolayca stok sayımı yapılabilir.
-  Belge taraması yapılarak gönderim sağlanır, gönderim şifrelenerek sağlanmaktadır.
+# Zeyn Eczane Uygulaması
 
-Uygulama Bölümleri:
-  1) Uygulama Girişi
-  2) Anasayfa
-  3) Qr Okutma
-  4) Qr Listesi
-  5) Stok Sayımı
-  6) Belge veya Qr Çözümleme
+Zeyn, eczane iş akışlarını dijitalleştirmek ve operasyonel verimliliği artırmak amacıyla geliştirilmiş, akıllı veri tarama ve yönetim çözümüdür. Uygulama, özellikle toplu veri işleme ve güvenli belge paylaşımı konularında eczacıların ihtiyaçlarına yönelik optimize edilmiştir.
 
-1) Uygulama Girişi
-   Uygulamaya sistemde kayıtlı olan kullanıcı adı ve şifresi ile giriş yapılır. Herhangi bir kayıt işlevi mobilden gerçekleşmez.
+---
 
-2) Anasayfa
-   Anasayfa bölümünde, özet durum alanları mevcuttur, bu alanlar; okutulan kodlar,stok sayım listesi, eczanenin grubu, gruptaki eczanesi sayısı,bugün gönderilen qr kod sayısı, tarih bilgilerini içerir.
-   Gün içerisinde sisteme toplam kaç tane kod gönderdiğiniz kolaylıkla bu kısımda gözükür, qr kodları okuttunuz fakat göndermediniz yine anasayfa kısmında okutulan kodlar bölümünden qr kodlarınızı görebilirsiniz.
+## 🚀 Temel Amaç ve Çözümler
 
-3) Qr Okutma
-   Qr okutma bölümünde, kameranızı okutacağınız bir den fazla ilacın qr kısmına yöneltin otomatik olarak hızlıca okuyacaktır ve listeye aktarılacaktır.
-   En büyük avantaj burada devreye giriyor, bir kamerada bir den fazla ilacı okuyabiliyor.
+* **Çoklu QR Yönetimi:** Tek seferde birden fazla QR kodu tarayarak ortak veri havuzuna aktarma ve diğer eczanelerle paylaşma imkanı sunar.
+* **Hızlı Stok Envanteri:** Manuel süreçleri ortadan kaldırarak kamera üzerinden saniyeler içinde stok sayımı yapılmasını sağlar.
+* **Güvenli Belge Transferi:** Fiziksel belgelerin dijitalleştirilmesini ve şifrelenmiş (encrypted) bir altyapı üzerinden güvenli transferini gerçekleştirir.
 
-4) Qr Listesi
-   Okutulan ilaçların listelendiği bölümdür, burada ilaçların barkodları ve isimleri yer alır.
-   Listedeki istediğiniz ilacın qr kodunu kopyalayabilir veya silebilirsiniz, dilerseniz toplu silme ve toplu kopyalama işlevide sağlamaktadır.
-   Listedeki ilaçları tek bir qr kod haline getirebilirsiniz, bu tek qr kodu okuttuğunuz takdirde içindeki tüm ilaçların barkodlar yazılır.
+---
 
-5) Stok sayımı
-   Stok sayımı bölümünde, ilaçları hızlıca okutarak stok sayımı gerçekleştirebilirsiniz, bu okutulan ilaçları dilerseniz excell formatında çıktı ile dilerseniz sisteme gönderebilirsiniz.
+## 📱 Uygulama Bölümleri
 
-6) Belge ve Qr Çözümleme
-   
+### 1. Uygulama Girişi (Authentication)
+Uygulama güvenliğini en üst düzeyde tutmak amacıyla kayıt işlemleri yalnızca merkezi panel üzerinden gerçekleştirilir. Kullanıcılar, sistemde kayıtlı olan kullanıcı adı ve şifreleri ile sisteme güvenli erişim sağlar; mobil uygulama üzerinden doğrudan kayıt oluşturulmaz.
+
+### 2. Anasayfa (Dashboard)
+Eczanenin günlük operasyonel durumunu anlık olarak takip edebileceğiniz merkezi yönetim alanıdır.
+* **Veri Takibi:** Okutulan toplam kod sayısı ve bugün gönderilen veri hacmi.
+* **Grup Bilgileri:** Bağlı bulunan eczane grubu ve gruptaki diğer eczane sayısı.
+* **Durum Bildirimleri:** Sisteme henüz gönderilmemiş, yerel hafızada bekleyen QR kodların takibi.
+
+### 3. QR Okutma (Multi-Scan)
+Gelişmiş görüntü işleme teknolojisi sayesinde, kamera açısındaki birden fazla ilacı aynı anda tanımlar ve hızlıca listeye aktarır.
+> **Not:** Uygulamanın en büyük avantajı, tek bir kamera açısıyla birden fazla ürünü aynı anda okuyabilmesidir.
+
+### 4. QR Listesi
+Taranan ilaçların detaylı (Barkod, İsim vb.) listelendiği yönetim panelidir.
+* **Düzenleme:** Seçili kodları kopyalama, silme veya toplu işlem yeteneği.
+* **QR Birleştirme:** Listedeki tüm verileri tek bir QR koda dönüştürür. Bu karekod okutulduğunda, içerdiği tüm ilaçların barkodları toplu olarak işlenir.
+
+### 5. Stok Sayımı
+Hızlı okuma moduyla stok sayım süreçlerini optimize eder.
+* **Çıktı Seçenekleri:** Sayım sonuçlarını doğrudan merkezi sisteme aktarabilir veya **Excel** formatında dışa aktarım sağlayabilirsiniz.
+
+### 6. Belge ve QR Çözümleme
+* **Arşivleme:** Fiziksel evrakları tarayarak şifreli protokoller üzerinden sisteme yükler.
+* **Fotoğraf Çözümleme:** Anlık olarak taranmayan veya daha önce fotoğrafı çekilmiş olan QR kodları, galeri üzerinden seçerek sisteme dahil etme imkanı sunar.
+
+---
+
+## 🛠 Teknik Avantajlar
+
+* **Hız:** Çoklu nesne algılama ile saniyeler içinde onlarca veri girişi.
+* **Güvenlik:** Belge gönderiminde uçtan uca şifreleme.
+* **Esneklik:** Excel entegrasyonu ve gelişmiş toplu işlem yetenekleri.
