@@ -47,3 +47,7 @@ Hızlı okuma moduyla stok sayım süreçlerini optimize eder.
 * **Hız:** Çoklu nesne algılama ile saniyeler içinde onlarca veri girişi.
 * **Güvenlik:** Belge gönderiminde uçtan uca şifreleme.
 * **Esneklik:** Excel entegrasyonu ve gelişmiş toplu işlem yetenekleri.
+
+---
+
+## 🛠 Uygulama Görselleri
