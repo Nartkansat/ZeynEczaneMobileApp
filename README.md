@@ -50,4 +50,4 @@ Hızlı okuma moduyla stok sayım süreçlerini optimize eder.
 
 ---
 
-## 🛠 Uygulama Görselleri
+## 📸 Uygulama Görselleri
