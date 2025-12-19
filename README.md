@@ -51,3 +51,5 @@ Hızlı okuma moduyla stok sayım süreçlerini optimize eder.
 ---
 
 ## 📸 Uygulama Görselleri
+![Android+Emulator+-+Medium_Phone_API_36_5554+2025-12-09+10-44-04 (1)](https://github.com/user-attachments/assets/6cb936ba-8a75-4662-b86b-6d66bbda5a81)
+
