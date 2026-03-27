@@ -9,6 +9,7 @@
 ## ⚙️ Backend & API
 This application consumes the ZeynPharmacy RESTful API built with ASP.NET Core and Clean Architecture.
 👉 **[Click here to view the ZeynPharmacy Backend Repository](https://github.com/Nartkansat/ZeynEczane)**
+
 ---
 
 ## 🚀 Core Objectives & Solutions
