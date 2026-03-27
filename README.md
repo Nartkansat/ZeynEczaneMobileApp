@@ -34,6 +34,7 @@ The application is structured using a feature-based architecture to ensure scala
  ┃ ┗ 📜 main.dart          # Application Entry Point
  ┣ 📂 assets               # Images, Icons, and Fonts
  ┗ 📜 pubspec.yaml         # Project Dependencies & Configurations
+```
 
 ## 🧩 Application Modules
 
