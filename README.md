@@ -76,3 +76,4 @@ Optimizes stock counting processes with a rapid scanning mode.
 ## 📸 Screenshots
 
 <img src="https://github.com/user-attachments/assets/6cb936ba-8a75-4662-b86b-6d66bbda5a81" alt="Zeyn Mobile App Screenshot" width="300">
+
